@@ -12,6 +12,14 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+     ],
+      "my-lib": [
+        "dist/my-lib"
+      ]
+    },
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
